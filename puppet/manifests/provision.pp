@@ -1,13 +1,3 @@
-#
-# Copyright (c)2015 NASA GSFC ICAM
-# Mike Duncan <michael.d.duncan@nasa.gov>
-#
-# Simple provisioning of a Tomcat-based application server. Default username and
-# password for the deployment of applications to the server is 'manager' and
-# 'Manager123' respectively. Access the application through Apache for which the 
-# traffic is forwarded from tcp/8080 on the host to tcp/80 on the guest. This 
-# will also ensure that Oracle JDK v8u66 is installed and used.
-#
 
 # Initial Configurations
 file { '/etc/motd':
