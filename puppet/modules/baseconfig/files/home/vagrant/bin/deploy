@@ -1,0 +1,9 @@
+#!/bin/bash
+DIR="/vagrant/deploy"
+
+cd ${DIR}
+for i in *; do
+	name=`echo "${i}" | sed -e 's/\.war//' | tr ' ' '_'`
+	echo -n ">> Deploying/Updating application: ${name}           "
+	curl -T "${i}" "http://manager:Manager123@localhost/manager/text/deploy?path=/${name}&update=true"
+done

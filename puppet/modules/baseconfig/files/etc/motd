@@ -1,0 +1,17 @@
+    _    ____  ____    ____  _____ ______     _______ ____  
+   / \  |  _ \|  _ \  / ___|| ____|  _ \ \   / / ____|  _ \ 
+  / _ \ | |_) | |_) | \___ \|  _| | |_) \ \ / /|  _| | |_) |
+ / ___ \|  __/|  __/   ___) | |___|  _ < \ V / | |___|  _ < 
+/_/   \_\_|   |_|     |____/|_____|_| \_\ \_/  |_____|_| \_\
+                                                            
+Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
+Apache Ant(TM) version 1.9.2 compiled on June 10 2014
+Apache/2.4.6 (CentOS)
+Apache Tomcat/7.0.54
+mysql  Ver 15.1 Distrib 5.5.44-MariaDB
+
+Tomcat Manager (http://localhost:8080/manager/html)
+  o Username: manager
+  o Password: Manager123
+
